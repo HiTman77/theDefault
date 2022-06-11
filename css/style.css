@@ -1,4 +1,9 @@
-html,body{height:100%;position:relative;box-shadow:0 0 200px rgba(0,0,0,0.27) inset;color:#fff;font-family:"Lucida Sans Unicode",Verdana;background:#665fee;background-image:linear-gradient(45deg,#29bae4 0%,#ee76ad 100%);overflow-x:hidden}
+html,body
+{
+height:100%;position:relative;
+box-shadow:0 0 200px rgba(0,0,0,0.27) inset;color:#fff;
+font-family:"Lucida Sans Unicode",Verdana;background:#665fee;
+background-image:linear-gradient(45deg,#1a1c1c 0%,#4caf50 100%);overflow-x:hidden}
 .flex-grow{flex:1}
 a,a:hover{color:#a5d5ff}
 .h-05{height:.5%!important}
@@ -20,3 +25,4 @@ ul.nav.navbar-nav.navbar-right li a:hover,ul.nav.navbar-nav.navbar-right li.acti
 h1{font-size:3em!important}
 .customBackground{min-height:80%;min-width:140%;left:-40px;background-color:#f2f4f9;-webkit-transform:rotate(-4deg);-ms-transform:rotate(-4deg);transform:rotate(-4deg);z-index:1041;color:#212529;position:relative}
 .resetTextRotation{transform:rotate(4deg)!important;max-width:70%}
+}
