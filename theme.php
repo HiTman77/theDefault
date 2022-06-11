@@ -1,6 +1,5 @@
 <?php global $Wcms ?>
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="title" content="<?= $Wcms->get('config', 'siteTitle') ?> - <?= $Wcms->page('title') ?>" />
@@ -32,10 +31,8 @@
 <?= $Wcms->menu() ?></ul></div></div>
 </nav>
 <section class="container mt-5 mb-5 skewAfter">
-<div class="row">
-<div class="col-lg-12 my-auto text-center padding40">
-<?= $Wcms->page('content') ?>
-</div></div>
+<div class="row"><div class="col-lg-12 my-auto text-center padding40">
+<?= $Wcms->page('content') ?></div></div>
 </section>	
 <div class="h-05"></div>
 <section class="container-fluid mt-5 mb-5 flex-grow">
