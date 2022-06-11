@@ -1,5 +1,6 @@
 <?php global $Wcms ?>
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="title" content="<?= $Wcms->get('config', 'siteTitle') ?> - <?= $Wcms->page('title') ?>" />
@@ -10,19 +11,19 @@
 <meta property="og:site_name" content="<?= $Wcms->get('config', 'siteTitle') ?>" />
 <meta property="og:title" content="<?= $Wcms->page('title') ?>" />
 <meta name="twitter:site" content="<?= $this->url() ?>" />
+<link rel="shortcut icon" href="/data/files/favicon.png">
 <meta name="twitter:title" content="<?= $Wcms->get('config', 'siteTitle') ?> - <?= $Wcms->page('title') ?>" />
 <meta name="twitter:description" content="<?= $Wcms->page('description') ?>" />
 <title><?= $Wcms->get('config', 'siteTitle') ?> - <?= $Wcms->page('title') ?></title>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 <?= $Wcms->css() ?>
-<link rel="stylesheet" rel="preload" as="style" href="<?= $Wcms->asset('css/style.css') ?>">
+<link rel="stylesheet" rel="preload" as="style" href="<?= $Wcms->asset('css/style.css?1') ?>">
 </head>
 <body class="d-flex flex-column">
 <?= $Wcms->settings() ?>
 <?= $Wcms->alerts() ?>
 <nav class="navbar navbar-expand-lg navbar-light navbar-default">
-<div class="container">
-<a class="navbar-brand" href="<?= $Wcms->url() ?>"><?= $Wcms->siteTitle() ?></a>
+<div class="container"><a class="navbar-brand" href="/"><img src="/data/files/logo.png" alt="<?= $Wcms->siteTitle() ?>"></a>
 <div class="navbar-header">
 <button type="button" class="navbar-toggler navbar-toggle" data-toggle="collapse" data-target="#menu-collapse">
 <span class="navbar-toggler-icon">
@@ -31,8 +32,12 @@
 <?= $Wcms->menu() ?></ul></div></div>
 </nav>
 <section class="container mt-5 mb-5 skewAfter">
-<div class="row"><div class="col-lg-12 my-auto text-center padding40">
-<?= $Wcms->page('content') ?></div></div>
+<div class="row">
+<div class="col-lg-12 my-auto text-center padding40">
+<h2 align="center"><?= $Wcms->page('keywords') ?></h2>
+<h3 align="center"><?= $Wcms->page('description') ?></h3>
+<?= $Wcms->page('content') ?>
+</div></div>
 </section>	
 <div class="h-05"></div>
 <section class="container-fluid mt-5 mb-5 flex-grow">
