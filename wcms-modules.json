@@ -3,7 +3,7 @@
     "themes": {
         "theDefault": {
             "name": "theDefault",
-            "repo": "https://github.com/HiTman77/theDefault/tree/master",
+            "repo": "https://github.com/HiTman77/theDefault/",
             "zip": "https://github.com/HiTman77/theDefault/archive/master.zip",
             "summary": "Variant of default theme.",
             "version": "1.0.1",
