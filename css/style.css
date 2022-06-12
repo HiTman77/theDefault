@@ -26,3 +26,4 @@ h1{font-size:3em!important}
 .customBackground{min-height:80%;min-width:140%;left:-40px;background-color:#f2f4f9;-webkit-transform:rotate(-4deg);-ms-transform:rotate(-4deg);transform:rotate(-4deg);z-index:1041;color:#212529;position:relative}
 .resetTextRotation{transform:rotate(4deg)!important;max-width:70%}
 }
+
