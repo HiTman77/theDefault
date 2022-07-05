@@ -17,7 +17,7 @@
 <title><?= $Wcms->page('title') ?> on <?= $Wcms->get('config', 'siteTitle') ?></title>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 <?= $Wcms->css() ?>
-<link rel="stylesheet" rel="preload" as="style" href="<?= $Wcms->asset('css/style.css?1') ?>">
+<link rel="stylesheet" rel="preload" as="style" href="<?= $Wcms->asset('css/style.css?v2') ?>">
 </head>
 <body class="d-flex flex-column">
 <?= $Wcms->settings() ?>
